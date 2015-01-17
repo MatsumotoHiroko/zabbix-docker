@@ -4,7 +4,7 @@ MAINTAINER Homare Shimizu <homare@dova.co.jp>
 #--------------------------------------------
 # Initialize
 #--------------------------------------------
-ENV DEBIAN_FRONTEND=noninteractive
+ENV DEBIAN_FRONTEND noninteractive
 
 # for snmp-mibs-downloader
 RUN sed -i 's/universe/universe multiverse/' /etc/apt/sources.list
