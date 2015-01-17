@@ -7,7 +7,7 @@ MAINTAINER Homare Shimizu <homare@dova.co.jp>
 ENV DEBIAN_FRONTEND noninteractive
 
 # for snmp-mibs-downloader
-RUN sed -i 's/universe/universe multiverse/' /etc/apt/sources.list
+#RUN sed -i 's/universe/universe multiverse/' /etc/apt/sources.list
 
 #--------------------------------------------
 # for Install Softwares
@@ -29,7 +29,7 @@ RUN apt-get install -y postfix
 #--------------------------------------------
 # Install Net-SNMP
 #--------------------------------------------
-RUN apt-get install -y snmpd snmp-mibs-downloader
+#RUN apt-get install -y snmpd snmp-mibs-downloader
 
 #--------------------------------------------
 # Install MySQL

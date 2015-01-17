@@ -11,7 +11,7 @@ ${SERVICE_PATH} ntp start
 # for MySQL
 ${SERVICE_PATH} mysql start
 
-# for postfix
+# for Postfix
 ${SERVICE_PATH} postfix start
 
 # for Zabbix Server
