@@ -1,4 +1,3 @@
-# test
-# zabbix-docker
-# zabbix-docker
-# zabbix-docker
+# command
+## run
+'docker run -p 80:80 -d ubuntu-zabbix'
